@@ -1,0 +1,43 @@
+// Vuetify Library Variables
+@import './vuetify/variables';
+
+// Custom Vuetify Style Overrides
+@import './vuetify/overrides.scss';
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #324376; 
+  border-radius: 0
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #324376; 
+}
+
+
+.borderCardInfo{
+    border-left: 7px solid #2196f3 !important
+}
+
+table.attributeTable {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  table.attributeTable td, table.attributeTable th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  table.attributeTable tr:nth-child(even) {
+    background-color: #dddddd;
+  }
